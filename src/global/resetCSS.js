@@ -40,7 +40,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: roboto,sans-serif;
-  background-color:#CCC;
+  background-color:white;
 }
 /**
  * Render the main element consistently in IE.

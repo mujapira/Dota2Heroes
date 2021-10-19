@@ -1,5 +1,6 @@
 import React from "react";
 import * as S from "./styled";
+import {dotaState, getHeroes} from "../../hooks/dota-hooks";
 
 const Heroes = () => {
   return (

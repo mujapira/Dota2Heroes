@@ -7,7 +7,7 @@ export const DotaContext = createContext({
 
 });
 
-const DotaProvider = ({ children }) => {
+export const DotaProvider = ({ children }) => {
   const [dotaState, setDotaState] = useState({
     loading: false,
     heroes: [],
@@ -28,7 +28,7 @@ const DotaProvider = ({ children }) => {
         }));
       })
       .finally(() => {
-        setGithubState((prevState) => ({
+        setDotaState((prevState) => ({
           ...prevState,
           loading: false,
         }));
@@ -48,4 +48,3 @@ const DotaProvider = ({ children }) => {
   );
 };
 
-export default DotaProvider;

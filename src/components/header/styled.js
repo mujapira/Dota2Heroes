@@ -10,6 +10,7 @@ export const WrapperLayout = styled.section`
 `;
 
 export const Header = styled.header`
+  margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
