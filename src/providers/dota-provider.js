@@ -21,10 +21,10 @@ export const DotaProvider = ({ children }) => {
 
     api
       .get(`heroStats`)
-      .then(( heroes ) => {
+      .then(( {data} ) => {
         setDotaState((prevState) => ({
           ...prevState,
-          heroes
+          heroes:data
         }));
       })
       .finally(() => {

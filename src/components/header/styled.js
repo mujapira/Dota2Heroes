@@ -28,12 +28,12 @@ export const Tittle = styled.h1`
 margin-left: 20px;
   color: white;
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 800;
 `;
 
 export const SubTittle = styled.h2`
 margin-left: 20px;
   color: white;
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 200;
 `;

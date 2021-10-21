@@ -1,20 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import * as S from "./styled";
-import {dotaState, getHeroes} from "../../hooks/dota-hooks";
+import useDota from "../../hooks/dota-hooks";
+import Card from "../card/index";
 
 const Heroes = () => {
+  const { dotaState } = useDota();
+  console.log(dotaState);
+
   return (
-    <>
-      <S.List>
-        <S.Container>
-          <S.ContainerImg
-            src=" https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/abaddon.png "
-            alt=" Abaddon "
-            />
-            <S.Tittle>Abaddon</S.Tittle>
-        </S.Container>
-      </S.List>
-    </>
+    <S.List>
+      {dotaState.heroes.map((hero) => {
+        return <Card key={hero.id} tittle={hero.localized_name} img={`https://steamcdn-a.akamaihd.net/${hero.img}`} />;
+      })}
+    </S.List>
   );
 };
 
