@@ -5,8 +5,8 @@ export const Container = styled.a`
   flex-direction: column;
   align-items: center;
   padding: 5px;
-  height: 400px;
-  width: 300px;
+  height: 250px;
+  width: 310px;
   background-color: black;
   border-radius: 2%;
   margin-bottom:10px;

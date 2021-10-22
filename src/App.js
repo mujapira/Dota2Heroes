@@ -3,6 +3,7 @@ import Header from "./components/header";
 import Heroes from "./components/heroes";
 import { ResetCSS } from "./global/resetCSS";
 import useDota from "./hooks/dota-hooks";
+import SearchBar from "./components/searchbar";
 
 function App() {
   const {getHeroes} = useDota() 
@@ -13,9 +14,11 @@ function App() {
     <>
       <ResetCSS />
       <Header />
+      <SearchBar />
       <Heroes />
     </>
   );
+
 }
 
 export default App;

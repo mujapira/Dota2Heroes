@@ -6,6 +6,5 @@ export const List = styled.ul`
   justify-content: space-around;
   list-style-type: none;
   flex-wrap: wrap;
-  margin-bottom:10px;
 `;
 
