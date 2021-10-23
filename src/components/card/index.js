@@ -1,11 +1,22 @@
 import React from "react";
 import * as S from "./styled";
+import agiimg from "../../assets/images/agi.jpg";
+import intimg from "../../assets/images/int.jpg";
+import strimg from "../../assets/images/str.jpg";
 
 const Card = ({ hero }) => {
+  let primary = {
+    agi: agiimg,
+    int: intimg,
+    str: strimg,
+  };
   return (
     <S.Container>
-      <S.Tittle>{hero.localized_name}</S.Tittle>
-
+      <S.Wrapper>
+        <S.AttrNameImg src={primary[hero.primary_attr]} />
+        <S.Tittle>{hero.localized_name}</S.Tittle>
+      </S.Wrapper>
+      
       <S.ContainerImg
         src={`https://steamcdn-a.akamaihd.net/${hero.img}`}
         alt=" Hero Name "

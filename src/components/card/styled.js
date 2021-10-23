@@ -15,15 +15,16 @@ export const Container = styled.a`
 `;
 
 export const ContainerImg = styled.img`
-  margin: 20px 20px 45px;
   display: flex;
-  height: 200px;
-  width: 300px;
+  width: 100%;
+`;
+
+export const AttrNameImg = styled.img`
+  height: 35px;
+  width: 35px;
 `;
 
 export const Tittle = styled.h1`
-  margin-top: 15px;
-  margin-left: 20px;
   color: white;
   font-size: 32px;
   font-weight: 500;
@@ -44,10 +45,10 @@ export const Stats = styled.div`
 `;
 
 export const Attribute = styled.p`
-margin: 6px;
-color: white;
-font-size: 20px;
-font-weight: 300;
+  margin: 6px;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
 `;
 
 export const AttributeTitle = styled.b`
@@ -55,5 +56,12 @@ export const AttributeTitle = styled.b`
   color: white;
   font-size: 20px;
   font-weight: 600;
-  `;
-  
+`;
+
+export const Wrapper = styled.section`
+  display: flex;
+  flex:1;
+  align-items:center;
+  justify-content: center;
+  height: 200px;
+`;
