@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import * as S from "./styled";
 import useDota from "../../hooks/dota-hooks";
 import Card from "../card/index";

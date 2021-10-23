@@ -1,4 +1,4 @@
-import React, { createContext, useCallback, useEffect, useState } from "react";
+import React, { createContext, useCallback, useState } from "react";
 import api from "../services/api";
 
 export const DotaContext = createContext({
@@ -42,6 +42,7 @@ export const DotaProvider = ({ children }) => {
           ...prevState,
           heroes: data,
           filteredHeroes: data,
+
         }));
       })
       .finally(() => {
