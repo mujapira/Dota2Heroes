@@ -17,12 +17,16 @@ export const Input = styled.input`
   align-items: center;
   justify-content: center;
   width: 90%;
-  border:1px solid #fff;
+  border:2px solid black;
 `;
 
 export const Button = styled.button`
   display: flex;
   width:10%;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 10px;
 `;
 
 export const Form = styled.form`
