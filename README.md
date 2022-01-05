@@ -12,3 +12,4 @@
 <p><code>yarn install</code> ou para instalar as dependências.</p>
 <p><code>yarn start</code> para executar localmente em http://localhost:3000/</p>
 
+<p>Acesse o link para ver o projeto online! https://dota-heroes.vercel.app/</p>
