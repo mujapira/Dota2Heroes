@@ -1,7 +1,8 @@
 <h1 align="center">Dota 2 Heroes</h1>
 
 <p align="center">
-  Aplicação em react que informa uma lista dos heróis do jogo Dota 2 se comunicando com uma API.</p>
+  Projeto criado no bootcamp Eduzz Fullstack Developer para demonstar conhecimentos  de API, protocolo HTTPS, Javascript, React e outras tecnologias relacionadas
+</p>
   
   <p align="center">Criado no Bootcamp da Eduzz em parceria com a DIO. </p>
  
